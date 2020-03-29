@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    height: 700px;
+}
+/* top section css code */
+.top-section{
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 760px;
+    background-size: cover;
+}
+.nav-manu{
+    width: 100%;
+    height: 80px;
+    padding-top: 15px;
+    
+}
+.left-nav{
+    width: 17%;
+ 
+    text-align: center;
+    padding-top: 20px; 
+    float: left; 
+  
+}
+.main-nav{
+    width: 58%;
+    padding-top: 20PX;
+    float: left;
+ 
+}
+.main-nav ul{
+    text-align: center;
+}
+.main-nav ul li {
+    display: inline-block;
+    padding: 15px;
+    
+}
+.main-nav ul li a{
+  text-decoration: none;
+  display: block;  
+  color: #DB9A64;
+}
+
+.right-nav{
+    width: 25%;
+    float: right;
+    text-align: center;
+    padding-top: 25px;
+    
+}
+.right-nav a{
+    text-decoration: none;
+    color: #DB9A64;
+    padding: 15px 30px;
+    border: 1px solid #DB9A64;
+    font-size: 25px;
+    font-weight: 600;
+}
+.right-nav a:hover{
+    color:white;
+    background-color:  #DB9A64;
+}
+.top-img-text-div{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 5px;
+}
+.half-width-div{
+    width: 50%;
+    float: left;
+    text-align: center;
+    height: 300px;
+}
+.half-width-div h1{
+    color: white;
+    font-size: 70px;
+    padding-bottom: 15px;
+    
+}
+.half-width-div h3{
+    color: #DB9A64;
+    font-size: 50px;
+    padding-bottom: 35px;
+}
+.button-style{
+    color: #DB9A64;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid  #DB9A64;
+    padding: 15px 30px;   
+}
+.button-style:hover{
+    color:white;
+    background-color:  #DB9A64;
+}
+.top-text{
+    padding-top: 200px;
+}
+.top-my-img{
+    max-width: 100%;
+   max-height: 660px;
+ 
+}
+
+/* skill text section css code */
+.about-text-skill-section{
+    width: 100%;
+    background-color: #311E25;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.container h2{
+    width: 80%;
+    color: white;
+    font-size: 40px;
+}
+.half-width{
+    width: 45%;
+    float: left;
+    padding-top: 120px;
+}
+p{
+    color: #e3ced5;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.text-skil{
+    color: white;
+    padding-top: 10px;
+}
+.skill-bar{
+    width: 90%;
+     height: 10px;
+     background-color: aliceblue; 
+     margin-top: 10px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+}
+.skill-bar div{
+    width: 60%;
+    height: 10px;
+    background-color: #DB9A64;
+    border-radius: 10px;
+}
+
+/* Servive Section CSS Code */
+.service-section{
+    background-color: #3B2930;
+    height: 500px;
+    
+
+}
+.service-div{
+    width: 30%;
+    height: 250px;
+    border: 1px solid #DB9A64;
+     float: left;
+    margin-top: 50px;
+
+}
+.service-div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    margin-bottom: 22px;
+}
+.service-div h3{
+   text-align: center;
+   color: #DB9A64;
+   font-size: 26px;
+   margin-bottom: 22px;  
+}
+
+/* gallery section css code */
+
+.gallery-section{
+    background-color: #311E25;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gallery-div{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.gallery-imgs{
+    width: 20%;
+    float: left;
+    height: 200px;
+    
+}
+.gallery-imgs img{
+    width: 100%;
+    height: 200px;
+    padding: 5px; 
+}
+
+/* contact section css code */
+.contact-section{
+    background-color : #3B2930;
+}
+.contact-div-left{
+    width: 60%;
+    float: left;
+}
+
+label{
+    font-size: 20px;
+    color: white;
+    padding-bottom: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: transparent;
+    color: #DB9A64;
+    padding: 12px 20px;
+    border: 1px solid #DB9A64;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #DB9A64;
+    color:white
+  }
+
+.contact-div-right{
+    width: 30%;
+    float: right;
+}
+.icon-text{
+    width: 100%;
+    padding-top: 50px;
+}
+.contact-div-right h3{
+    color: white;
+    font-size: 25px;
+}
+.icon{
+    width: 20%;
+    text-align: center;
+    float: left;
+    color: tomato;
+    font-size: 15px;
+}
+.icon i{
+ 
+    text-align: center;
+    color: tomato;
+    font-size: 35px;
+}
+.ad-text{
+    width: 80%; 
+    float: left;
+}
+.ad-text h5{
+    font-size: 20px;
+    color: white;
+}
+.ad-text p{
+    font-size: 15px;
+    padding-bottom: 15px;
+    
+}
+/* footer part css code */
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #311E25;
+}
+footer p{
+    text-align: center;
+    color:#DB9A64;
+    font-size: 12px;
+    padding-top: 10px;
+}
